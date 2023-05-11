@@ -1,0 +1,19 @@
+.blogs{
+    text-align: center;
+    color: #095669;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-underline-offset: 12px;
+}
+.blogtagline{
+    text-align: center;
+    color:palevioletred;
+    margin-top: 20px;
+}
+.cat{
+    color: #095669;
+    font-weight: bold;
+}
+.pagi{
+    margin: 0 auto;
+}

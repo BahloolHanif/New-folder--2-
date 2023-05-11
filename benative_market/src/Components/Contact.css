@@ -1,0 +1,31 @@
+.btn{
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+   color: black;    
+   font-size: 20px;
+   }
+   .input-field {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+.input-field:focus {
+  outline: none;
+}
+.heading{
+  margin-top: 10px;
+  text-align: center;
+  text-decoration-color: #095669;
+  text-decoration-thickness:3px;
+text-decoration-line: underline;
+text-underline-offset: 8px;
+}
+.spanname{
+  color: #095669;
+  font-weight: bold;
+}
+@media only screen and (max-width:425px) 
+{
+
+}

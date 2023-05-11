@@ -1,0 +1,38 @@
+.banner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.bannerlink{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    color: white;
+}
+.para{
+    color: black;
+    text-align: justify;
+    text-justify: auto;
+}
+.servicetagline{
+    text-align: center;
+    color:cadetblue;
+}
+@media (max-width: 800px) and (min-width: 480px)  {
+    .bannerlink {
+        text-align: center;
+     font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bannerlink {
+   font-size: 20px;
+   text-align: center;
+    }
+  }
+  

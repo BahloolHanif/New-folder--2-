@@ -1,0 +1,51 @@
+.services{
+    text-align: center;
+    color: #095669;
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-underline-offset: 7px;
+
+}
+.serline{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(to right, palevioletred, #095669);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  
+.multicolor{
+    color: black;
+}
+.eachservice{
+    height: 45vh;
+    width: auto;
+    background: linear-gradient(to right, palevioletred, #095669);
+    margin-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.eachservice:hover{
+    background: linear-gradient(to right, #095669 ,palevioletred);
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.awesome{
+    font-size: 35px;
+    color: white;
+}
+@media (max-width: 425px)  {
+    .service_p{
+     font-size: 15px;
+    }
+    .multicolor{
+        font-size: 20px;
+    }
+  }
